@@ -1,0 +1,16 @@
+.cover__background {
+  position: relative;
+  max-width: calc(100% - 96px);
+  object-fit: cover;
+  z-index: -1;
+  grid-column: 1/3;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    max-width: 100%;
+  }
+}

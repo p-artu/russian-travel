@@ -1,0 +1,5 @@
+.lead__main-illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
