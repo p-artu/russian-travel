@@ -5,8 +5,20 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 1.04;
   align-self: center;
+}
+
+@media screen and (min-width: 1700px) {
+  .lead__title {
+    font-size: 110px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__title {
+    margin-top: 48px;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -17,8 +29,4 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .lead__title {
-    margin-top: 48px;
-  }
-}
+

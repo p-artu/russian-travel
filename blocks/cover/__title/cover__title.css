@@ -3,9 +3,16 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 106%;
+  line-height: 1.06;
   text-align: center;
   max-width: 560px;
+}
+
+@media screen and (min-width: 1700px) {
+  .cover__title {
+    font-size: 100px;
+    max-width: calc(560px + 100vw - 1280px);
+  }
 }
 
 @media screen and (max-width: 768px) {
