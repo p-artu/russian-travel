@@ -1,6 +1,6 @@
 .page {
   margin: 0 auto;
-  background-color: #2A2C2F;
+  background-color: rgb(42, 44, 47);
   font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -8,5 +8,4 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   color: white;
-  opacity: 0.99;
 }

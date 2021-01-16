@@ -6,7 +6,7 @@
   align-self: end;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 485px) {
   .place__website {
     box-sizing: border-box;
     padding: 0 16px;

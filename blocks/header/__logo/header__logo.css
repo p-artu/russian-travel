@@ -7,7 +7,7 @@
   background-image: url(../../../sprint-3-images/header-logo.svg);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .header__logo {
     width: 142px;
     height: 42px;

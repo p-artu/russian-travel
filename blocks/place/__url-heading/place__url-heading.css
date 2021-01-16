@@ -3,18 +3,12 @@
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 170%;
+  line-height: 1.7;
   letter-spacing: 0.2em;
 }
 
-@media screen and (min-width: 1700px) {
+@media screen and (max-width: 900px) {
   .place__url-heading {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 810px) {
-  .place__url-heading {
-    line-height: 100%;
+    line-height: 1;
   }
 }
