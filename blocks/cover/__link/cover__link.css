@@ -16,4 +16,5 @@
 
 .cover__link:hover {
   background-color: rgba(42, 44, 47, .8);
+  transition: background-color .7s linear;
 }
